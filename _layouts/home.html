@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+	{%- if page.title -%}
+		<h1 class="page-heading">{{ page.title }}</h1>
+	{%- endif -%}
+
+	<h2 class="home-header mb-4">Lin Yixiang, Leon</h2>
+
+	{{ content }}
+
+  	<h5 id="experience" class="mt-5 mb-4">Experience</h2>
+  	<ul class="list-unstyled media-wrapper">
+		{% for company in site.data.experience %}
+			<li class="media my-3">
+				<img src="/assets/img/{{ company.logo }}" class="align-self-center mr-4" width="48px" height="48px">
+				<div class="media-body">
+					<p class="mt0 mb-1">{{ company.name }}</p>
+					<i><span class="media-body-description">{{ company.role }}, {{ company.period }}</span></i>
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<h5 id="experience" class="mt-5 mb-4">Education</h2>
+  	<ul class="list-unstyled media-wrapper">
+		{% for school in site.data.education %}
+			<li class="media my-3">
+				<img src="/assets/img/{{ school.logo }}" class="align-self-center mr-4" width="48px" height="48px">
+				<div class="media-body">
+					<p class="mt0 mb-1">{{ school.name }}</p>
+					<i><span class="media-body-description">{{ school.cgpa }}, {{ school.period }}</span></i>
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+</div>

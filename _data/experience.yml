@@ -1,0 +1,19 @@
+- name: T05 Technologies Pte Ltd
+  role: Full Stack Developer
+  period: Jun 2019 - Aug 2019
+  logo: t05-logo.png
+
+- name: Nanyang Technological University
+  role: Student Researcher
+  period: Aug 2018 - Jul 2019
+  logo: ntu-logo.png
+
+- name: Apps Authority Pte Ltd
+  role: Software Engineer
+  period: Mar 2018 - Aug 2018
+  logo: smartcommerce-logo.png
+
+- name: Ngee Ann Polytechnic
+  role: Game Developer
+  period: Aug 2013 - Oct 2013
+  logo: np-logo.png

@@ -1,0 +1,47 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+*, ::after, ::before{
+    box-sizing: content-box !important;
+}
+
+.navbar-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-header-style{
+    background-color: #1565C0;
+}
+
+.site-header-style *{
+    color: #FAFAFA !important;
+}
+
+.navbar-brand-font{
+    font-weight: 700;
+}
+
+.navbar-link-font{
+    font-weight: 500;
+}
+
+.home{
+    p{
+        font-weight: 400;
+        color: #212121 !important;
+    }
+    .home-header{
+        font-weight: 300;
+    }
+}
+
+.media-wrapper{
+    margin-left: 0px;
+    .media-body-description{
+        font-weight: 300;
+        color: #424242 !important;
+    }
+}
