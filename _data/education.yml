@@ -1,9 +1,11 @@
 - name: Nanyang Technological University
+  course: Computer Science
   cgpa: cGPA 4.76/5.00
   period: Aug 2017 - Present
   logo: ntu-logo.png
 
 - name: Ngee Ann Polytechnic
+  course: Information Technology
   cgpa: cGPA 3.99/4.00
   period: Apr 2012 - May 2015
   logo: np-logo.png

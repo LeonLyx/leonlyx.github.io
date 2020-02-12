@@ -31,7 +31,8 @@ layout: default
 				<img src="/assets/img/{{ school.logo }}" class="align-self-center mr-4" width="48px" height="48px">
 				<div class="media-body">
 					<p class="mt0 mb-1">{{ school.name }}</p>
-					<i><span class="media-body-description">{{ school.cgpa }}, {{ school.period }}</span></i>
+					<i><span class="media-body-description">{{ school.course }}, {{ school.period }}</span></i><br/>
+					<i><span class="media-body-description">{{ school.cgpa }}</span></i><br/>
 				</div>
 			</li>
 		{% endfor %}
