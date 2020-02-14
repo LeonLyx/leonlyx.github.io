@@ -14,6 +14,7 @@
 
 .site-header-style{
     background-color: #1565C0;
+    border-color: #1565C0;
 }
 
 .site-header-style *{
@@ -26,6 +27,34 @@
 
 .navbar-link-font{
     font-weight: 500;
+
+    &:hover{
+        color: #013673 !important;
+    }
+}
+
+.navbar-toggler-style{
+    border: none;
+    box-shadow: none;
+
+    &:focus{
+        outline: none;
+    }
+
+    &:hover{
+        color: #013673 !important;
+
+        i{
+            color: #013673 !important;
+        }
+    }
+}
+
+.navbar-header-style{
+    li a{
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
 
 .home{
@@ -44,4 +73,40 @@
         font-weight: 300;
         color: #424242 !important;
     }
+}
+
+.post-list{
+    .blog-post-title{
+        margin-bottom: 5px;
+        font-weight: 700;
+        
+        a{
+            color: #424242;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.blog-post-wrapper{
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top-style: solid;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    .post-title-style{
+        color: #424242;
+        font-weight: 700;
+    }
+}
+
+.blog-header{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.blog-header-tagline{
+    font-weight: 300;
+    color: #828282;
+    font-style: italic;
 }

@@ -1,11 +1,18 @@
 - name: Nanyang Technological University
   course: Computer Science
-  cgpa: cGPA 4.76/5.00
+  description: cGPA 4.76/5.00
   period: Aug 2017 - Present
   logo: ntu-logo.png
 
+- name: University of Waterloo
+  course: Computer Science
+  period: Jan 2019 - May 2019
+  description: Winter Exchange Programme
+  logo: uw-logo.png
+
+
 - name: Ngee Ann Polytechnic
   course: Information Technology
-  cgpa: cGPA 3.99/4.00
+  description: cGPA 3.99/4.00
   period: Apr 2012 - May 2015
   logo: np-logo.png

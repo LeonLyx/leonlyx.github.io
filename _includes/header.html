@@ -5,15 +5,15 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     <nav class="navbar navbar-expand-lg navbar-light navbar-padding">
-      <a class="navbar-brand navbar-brand-font" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-      <!--
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList">
-          <span class="navbar-toggler-icon"></span>
+        <h1 class="mx-auto">
+          <a class="navbar-brand navbar-brand-font" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        </h1>
+        <button class="navbar-toggler navbar-toggler-style" type="button" data-toggle="collapse" data-target="#navbarList">
+          <i class="fas fa-bars"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarList">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto navbar-header-style">
             {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
@@ -24,7 +24,6 @@
             {%- endfor -%}
           </ul>
         </div>
-      -->
     </nav>
   </div>
 </header>
