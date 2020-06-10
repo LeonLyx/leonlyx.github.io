@@ -33,6 +33,9 @@ layout: default
 				<div class="media-body">
 					<p class="mt0 mb-1">{{ school.name }}</p>
 					<span class="media-body-description">{{ school.course }}, {{ school.period }}</span><br/>
+					{%- if school.classification -%}
+						<span class="media-body-description">{{ school.classification }}</span><br/>
+					{%- endif -%}
 					<span class="media-body-description">{{ school.description }}</span><br/>
 				</div>
 			</li>

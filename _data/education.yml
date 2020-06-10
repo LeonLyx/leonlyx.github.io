@@ -1,6 +1,7 @@
 - name: Nanyang Technological University
   course: Computer Science
-  description: cGPA 4.76/5.00
+  classification: Degree with Highest Distinction
+  description: cGPA 4.82/5.00
   period: Aug 2017 - May 2021
   logo: ntu-logo.png
 
@@ -13,6 +14,7 @@
 
 - name: Ngee Ann Polytechnic
   course: Information Technology
+  classification: Diploma with Merit
   description: cGPA 3.99/4.00
   period: Apr 2012 - May 2015
   logo: np-logo.png
