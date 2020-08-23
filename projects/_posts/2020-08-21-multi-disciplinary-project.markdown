@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multi-Disciplinary Project"
-date: 2020-08-22 00:00:00 +0800
+date: 2020-08-21 00:00:00 +0800
 author: Lin Yixiang, Leon
 ---
 

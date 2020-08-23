@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analysis Lifting with Differential Facts"
-date: 2020-08-23 00:00:00 +0800
+date: 2020-08-22 00:00:00 +0800
 author: Lin Yixiang, Leon
 ---
 
