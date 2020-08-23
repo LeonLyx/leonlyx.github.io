@@ -2,12 +2,12 @@
 layout: default
 ---
 <h2 class="blog-header">Blog</h2>
-<span class="blog-header-tagline">Yet another place to pen down my thoughts and journey</span>
+<span class="blog-header-tagline">Yet another place to pen down my thoughts and journey...</span>
 
 <article class="post blog-post-wrapper">
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.categories.blog -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <h3 class="blog-post-title">
