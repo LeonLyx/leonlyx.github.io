@@ -6,7 +6,7 @@ author: Lin Yixiang, Leon
 ---
 
 #### Reference
-- [URL Shortener Repository](https://github.com/LeonLyx/URL-Shortener)
+1. [URL Shortener Repository](https://github.com/LeonLyx/URL-Shortener)
 <br/><br/>
 
 #### Description

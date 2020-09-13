@@ -1,11 +1,11 @@
 <header class="site-header site-header-style" role="banner">
-
+  <div class="site-header-gradient"></div>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     <nav class="navbar navbar-expand-lg navbar-light navbar-padding">
-        <h1 class="mx-auto">
+        <h1 class="mx-auto my-auto">
           <a class="navbar-brand navbar-brand-font" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
         </h1>
         <button class="navbar-toggler navbar-toggler-style" type="button" data-toggle="collapse" data-target="#navbarList">

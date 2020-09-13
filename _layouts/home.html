@@ -6,39 +6,52 @@ layout: default
 	{%- if page.title -%}
 		<h1 class="page-heading">{{ page.title }}</h1>
 	{%- endif -%}
+	
+	<div class="wrapper">
+		<div class="site-home-initials-wrapper">
+			<h2 class="site-home-name">Leon Lin</h2>
+			<h5 class="site-home-role">Software Engineer, Singapore</h5>
+			<hr/>
+		</div>
 
-	<h2 class="home-header mb-4">Lin Yixiang, Leon</h2>
+		<div class="section-wrapper site-home-introduction-wrapper">
+			<h5 id="experience" class="mb-2 section-header">About Me</h2>
+			{{ content }}
+		</div>
+		
+		<div class="section-wrapper">
+			<h5 id="experience" class="mb-2 section-header">Experience</h2>
+			<ul class="list-unstyled media-wrapper">
+				{% for company in site.data.experience %}
+					<li class="media my-3">
+						<img src="/assets/img/{{ company.logo }}" class="align-self-center mr-4" width="48px" height="48px">
+						<div class="media-body">
+							<p class="mt0 mb-1">{{ company.name }}</p>
+							<span class="media-body-description">{{ company.role }}</span><br/>
+							<span class="media-body-description">{{ company.period }}</span>
+						</div>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
 
-	{{ content }}
-
-  	<h5 id="experience" class="mt-5 mb-4 section-header">Experience</h2>
-  	<ul class="list-unstyled media-wrapper">
-		{% for company in site.data.experience %}
-			<li class="media my-3">
-				<img src="/assets/img/{{ company.logo }}" class="align-self-center mr-4" width="48px" height="48px">
-				<div class="media-body">
-					<p class="mt0 mb-1">{{ company.name }}</p>
-					<span class="media-body-description">{{ company.role }}</span><br/>
-					<span class="media-body-description">{{ company.period }}</span>
-				</div>
-			</li>
-		{% endfor %}
-	</ul>
-
-	<h5 id="education" class="mt-5 mb-4 section-header">Education</h2>
-  	<ul class="list-unstyled media-wrapper">
-		{% for school in site.data.education %}
-			<li class="media my-3">
-				<img src="/assets/img/{{ school.logo }}" class="align-self-center mr-4" width="48px" height="48px">
-				<div class="media-body">
-					<p class="mt0 mb-1">{{ school.name }}</p>
-					<span class="media-body-description">{{ school.course }}, {{ school.period }}</span><br/>
-					{%- if school.classification -%}
-						<span class="media-body-description">{{ school.classification }}</span><br/>
-					{%- endif -%}
-					<span class="media-body-description">{{ school.description }}</span><br/>
-				</div>
-			</li>
-		{% endfor %}
-	</ul>
+		<div class="section-wrapper">
+			<h5 id="education" class="mb-2 section-header">Education</h2>
+			<ul class="list-unstyled media-wrapper">
+				{% for school in site.data.education %}
+					<li class="media my-3">
+						<img src="/assets/img/{{ school.logo }}" class="align-self-center mr-4" width="48px" height="48px">
+						<div class="media-body">
+							<p class="mt0 mb-1">{{ school.name }}</p>
+							<span class="media-body-description">{{ school.course }}, {{ school.period }}</span><br/>
+							{%- if school.classification -%}
+								<span class="media-body-description">{{ school.classification }}</span><br/>
+							{%- endif -%}
+							<span class="media-body-description">{{ school.description }}</span><br/>
+						</div>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
 </div>

@@ -6,7 +6,7 @@ author: Lin Yixiang, Leon
 ---
 
 #### Reference
-- [Overview of Project](https://www.youtube.com/watch?v=wrS_hG-c0ME)
+1. [Overview of Project](https://www.youtube.com/watch?v=wrS_hG-c0ME)
 <br/><br/>
 
 #### Description

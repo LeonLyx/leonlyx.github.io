@@ -6,8 +6,8 @@ author: Lin Yixiang, Leon
 ---
 
 #### Reference
-- [Overview of Analysis Lifting with Differential Facts](https://www.youtube.com/watch?v=7JhATQdfJTg)
-- [Project Demonstration](https://www.youtube.com/watch?v=QCZo56Hrn60&t=3s)
+1. [Overview of Analysis Lifting with Differential Facts](https://www.youtube.com/watch?v=7JhATQdfJTg)
+2. [Project Demonstration](https://www.youtube.com/watch?v=QCZo56Hrn60&t=3s)
 <br/><br/>
 
 #### Description

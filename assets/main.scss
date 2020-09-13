@@ -7,68 +7,172 @@
     box-sizing: content-box !important;
 }
 
+body{
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-header-gradient{
+    height: 8px;
+    width: 100%;
+    background-color: #118ab2;
+    background-image: linear-gradient(319deg, #118ab2 0%, #06d6a0 37%, #ffd166 100%);
+}
+
+.site-header-style{
+    border-top: none;
+    background-color: #f5f5f5;
+    border-color: #e0e0e0;
+}
+
+.site-header-style *{
+    color: #424242 !important;
+}
+
 .navbar-padding{
     padding-left: 0;
     padding-right: 0;
 }
 
-.site-header-style{
-    background-color: #1565C0;
-    border-color: #1565C0;
-}
-
-.site-header-style *{
-    color: #FAFAFA !important;
-}
-
 .navbar-brand-font{
-    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Monoton', cursive;
+    color: #e53935 !important;
 }
 
 .navbar-link-font{
-    font-weight: 500;
-
     &:hover{
-        color: #013673 !important;
+        color: #f44336 !important;
     }
 }
 
 .navbar-toggler-style{
     border: none;
     box-shadow: none;
-
     &:focus{
         outline: none;
     }
-
     &:hover{
-        color: #013673 !important;
-
+        color: #f44336 !important;
         i{
-            color: #013673 !important;
+            color: #f44336 !important;
         }
     }
 }
 
 .navbar-header-style{
     li a{
+        font-family: 'Comfortaa', cursive;
         font-weight: 700;
         text-transform: uppercase;
+    }
+}
+
+.site-title-wrapper{
+    color: #424242;
+    font-family: 'Staatliches', cursive;
+    
+    .site-title-name{
+        font-size: 3rem;
+        margin-bottom: 0px;
+    }
+    .site-title-tagline{
+        margin-top: 0px;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #828282;
+    }
+}
+
+.section-wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .section-header{
+        padding-bottom: 10px;
+        font-size: 1.5em;
+        font-family: 'Heebo', sans-serif;
+        text-transform: uppercase;
+        color: #212121;
+    }
+}
+
+.footer-wrapper{
+    background-color: #c62828;
+    *{
+        color: #f5f5f5;
+    }
+    .svg-icon{
+        fill: #f5f5f5;
+        width: 24px !important;
+        height: 24px !important;
+    }
+    .site-footer-header-style{
+        font-size: 2em;
+        font-family: 'Staatliches', cursive;
+    }
+    .site-footer-role-style{
+        font-size: 1.25em;
+        font-family: 'Staatliches', cursive;
+    }
+    .site-footer-description-style{
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+    .site-footer-account-style{
+        font-size: 1.1em;
+        font-family: 'Staatliches', cursive;
+
+        a{
+            color: #f5f5f5;
+            font-weight: 700;
+        }
+        
+        a:visited{
+            color: #f5f5f5;
+        }
+    }
+    .site-footer-email-style{
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+}
+
+.site-home-initials-wrapper{
+    color: #424242;
+    font-family: 'Staatliches', cursive;
+    
+    .site-home-name{
+        font-size: 3rem;
+        margin-bottom: 0px;
+    }
+
+    .site-home-role{
+        margin-top: 0px;
+        font-size: 1.2rem;
+        color: #757575;
+    }
+}
+
+.site-home-introduction-wrapper{
+    text-align: justify;
+    a{
+        color: #3f51b5;
+        font-weight: 700;
+    }
+    
+    a:visited{
+        color: #3f51b5;
     }
 }
 
 .home{
     p{
         font-weight: 400;
-        color: #212121 !important;
+        font-size: 1em;
+        color: #424242 !important;
     }
-    .home-header{
-        font-weight: 300;
-    }
-}
-
-.section-header{
-    font-size: 1.5rem;
 }
 
 .media-wrapper{
@@ -80,36 +184,60 @@
 }
 
 .post-list{
-    .blog-post-title{
+    padding-top: 20px;
+
+    .post-listing-header{
+        font-size: 1.35em;
+        font-family: 'Heebo', sans-serif;
         margin-bottom: 5px;
-        font-weight: 700;
-        
+        text-transform: uppercase;
+        color: #212121;
+
         a{
             color: #424242;
-            font-size: 1.5rem;
         }
     }
 }
 
-.blog-post-wrapper{
-    margin-top: 10px;
-    padding-top: 30px;
-    border-top-style: solid;
-    border-color: #E8E8E8;
-    border-width: 1px;
-    .post-title-style{
-        color: #424242;
+.projects-wrapper{
+    margin-bottom: 0px !important;
+    text-align: justify;
+
+    #reference, #description{
+        font-family: 'Heebo', sans-serif;
+        font-size: 1.2em;
+        color: #212121;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 1em;
+        color: #424242 !important;
+    }
+
+    a{
+        color: #3f51b5;
         font-weight: 700;
+    }
+    
+    a:visited{
+        color: #3f51b5;
     }
 }
 
-.blog-header{
-    margin-bottom: 5px;
-    font-weight: 700;
-    color: #212121;
-}
+.posts-wrapper{
+    margin-top: 10px;
+    color: #424242 !important;
+    text-align: justify;
 
-.blog-header-tagline{
-    font-weight: 300;
-    color: #828282;
+    .post-title-style{
+        color: #424242;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    p{
+        font-weight: 400;
+        font-size: 1em;
+    }
 }

@@ -28,8 +28,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
-linkedin_username: leonlyxl
-github_username: leonlyx
+linkedin_username: LinkedIn
+github_username: GitHub
 
 #plugins:
 #  - jekyll-feed

@@ -6,7 +6,7 @@ author: Lin Yixiang, Leon
 ---
 
 #### Reference
-- [Bus Arrival Repository](https://github.com/LeonLyx/sg-bus-api)
+1. [Bus Arrival Repository](https://github.com/LeonLyx/sg-bus-api)
 <br/><br/>
 
 #### Description
