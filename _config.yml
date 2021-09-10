@@ -18,18 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: LYXL
+title: Leon Lin
 email: leonlyxl@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Everything negative - pressure, challenges - are all an opportunity
-  for me to rise. Learning is a blessing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
-linkedin_username: LinkedIn
-github_username: GitHub
+linkedin_username: leonlyxl
+github_username: leonlyx
 
 #plugins:
 #  - jekyll-feed

@@ -1,20 +1,12 @@
 - name: Nanyang Technological University
   course: Computer Science
   classification: Degree with Highest Distinction
-  description: cGPA 4.82/5.00
+  description: cGPA 4.81/5.00
   period: Aug 2017 - May 2021
-  logo: ntu-logo.png
+  logo: ntu_logo.png
 
 - name: University of Waterloo
   course: Computer Science
   period: Jan 2019 - May 2019
   description: Winter Exchange Programme
-  logo: uw-logo.png
-
-
-- name: Ngee Ann Polytechnic
-  course: Information Technology
-  classification: Diploma with Merit
-  description: cGPA 3.99/4.00
-  period: Apr 2012 - May 2015
-  logo: np-logo.png
+  logo: uw_logo.png
